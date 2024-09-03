@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    border-bottom: 2px solid orangered;
+    padding-top: 30px;
+}
+
+header button.navigation-button {
+    padding: 15px 20px;
+    border-bottom: 0px;
+    border-color: orangered;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: lightgoldenrodyellow;
+}
+
+div#content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: orangered;
+    align-items: center;
+}
+
+div#content img {
+    width: 700px;
+    height: 600px;
+    border-radius: 75px;
+}
