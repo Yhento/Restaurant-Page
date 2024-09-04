@@ -1,11 +1,11 @@
 import { createDOMElement } from "./CreateDOMElement";
 
-import { clearContent } from "./clearContent";
+
 
 import pizza from './images/pizza.jpg';
 
 const renderHomePage = () => {
-    clearContent();
+    
 
     const content_div = document.getElementById('content');
     
